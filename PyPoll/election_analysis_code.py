@@ -1,6 +1,8 @@
 import os
 import csv
 
+import pandas as pd 
+
 election_csv = os.path.join("Resources", "election_data.csv")
 
 line_count = 0
