@@ -17,6 +17,7 @@ with open(election_csv) as csvfile:
     for row in csvreader: 
         # Count the total number of votes
         line_count += 1
+        # Create a list of candidates' names
         name = row[2]
         if name not in candidates:
             candidates.append(name)
